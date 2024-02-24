@@ -12,6 +12,7 @@
     left: 0;
     background: #080008;
     position: relative;
+    z-index: 1;
 }
 
 .header a {

@@ -8,6 +8,10 @@
     margin-right: auto;
 }
 
+.wrap {
+    text-wrap: normal;
+}
+
 body {
     background-color: #080008;
     position: relative;
@@ -15,7 +19,8 @@ body {
 }
 
 #content-wrap {
-    padding-bottom: 6rem;
+    padding-bottom: 15rem;
+    z-index: 0;
 }
 
 .red_under::after {
