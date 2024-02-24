@@ -1,0 +1,38 @@
+.centered {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    horiz-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: #080008;
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 6rem;
+}
+
+.red_under::after {
+    content: '';
+    background: #ff3d00;
+    width: 0;
+    height: 0.1vw;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transition: width 0.2s;
+    transform: translateX(-50%);
+}
+
+.red_under:hover::after {
+    width: 50%;
+}
+p, h1, h2, h3, h4, h5 {
+    color: white;
+}

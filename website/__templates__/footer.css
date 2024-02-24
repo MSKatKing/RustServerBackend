@@ -1,0 +1,17 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0 8%;
+    height: 5rem;
+    background: #080008;
+}
+
+#footer_copyright {
+    color: white;
+    font-family: "poppins", sans-serif;
+}
+
+#footer_contact-us {
+    font-family: "poppins", sans-serif;
+}
